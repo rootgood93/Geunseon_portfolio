@@ -8,4 +8,4 @@
 <br/>
 <br/>
 # 메인 시안
-<img src="https://user-images.githubusercontent.com/108649544/188557243-a788b561-4d51-4711-84ef-075d2ec34aea.jpg" />
+<img src="https://user-images.githubusercontent.com/108649544/188557612-bfc380ed-8c65-44af-ab73-5582e4e5516b.jpg" />
