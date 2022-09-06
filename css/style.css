@@ -615,8 +615,10 @@ section .sec_tit {
 
 /* .main #sec1 */
 .main #sec1 {
-    margin-top: 30rem;
     margin-bottom: 50rem;
+}
+.main #sec1 .inner{
+    padding-top: 30rem;
 }
 
 .main #sec1 h2 {
