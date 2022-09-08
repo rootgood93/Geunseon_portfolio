@@ -539,14 +539,13 @@ section .sec_tit {
 }
 
 .port_list .detail:hover {
-    color: #faf098;
-    border-color: #faf098;
-    /* border-color: #fcbbdf; */
+    color: #fda3a0;
+    border-color: #fda3a0;
 }
 
 .port_list .detail.view_btn:hover {
-    color: #fda3a0;
-    border-color: #fda3a0;
+    color: #faf098;
+    border-color: #faf098;
 }
 
 .port_list .detail:nth-of-type(1) {
