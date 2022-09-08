@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="shortcut icon" type="image/x-icon" sizes="40x40" href="./images/favicon.png" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer">
+    </script>
+    <script src="../js/common.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>이근선 포트폴리오</title>
+</head>
+
+<body>
+    <div id="wrap" class="sub">
+        <header>
+            <button class="ham">
+                <i class="fa-solid fa-bars-staggered open on"></i>
+                <i class="fa-solid fa-xmark close"></i>
+            </button>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="../index.html#sec1">Index</a></li>
+                    <li class="port_list"><a href="../index.html#sec3">Portfolio</a>
+                    </li>
+                    <li><a href="../index.html#sec4">Skill</a></li>
+                    <li><a href="../index.html#sec5">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="rotate_txt index back-top">Index</a>
+            <a class="rotate_txt port back-top">Portfolio</a>
+        </header>
+
+        <section class="port_list">
+            <h3 class="sec_tit" data-aos="fade-up">Portfolio</h3>
+            <ul class="tab flex_box inner" data-aos="fade-up">
+                <li class="on"><a href="#">제이쿼리/리액트</a></li>
+            </ul>
+            <div class="tab_box on" data-aos="fade-up">
+                <div class="view_box">
+                    <h2>리액트 쇼핑몰 구현</h2>
+                    <h5>부트스트랩을 연결하여 디자인. <br class="pc_show">useState, Router 라이브러리 사용, props와 map 사용</h5>
+                    <ul class="feature">
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                        <li>Router</li>
+                    </ul>
+                    <div class="flex_box view_list">
+                        <p class="img_box"><img src="../images/port2/6_1.jpg" alt=""></p>
+                        <p class="img_box"><img src="../images/port2/6_2.jpg" alt=""></p>
+                        <p class="img_box"><img src="../images/port2/6_3.jpg" alt=""></p>
+                    </div>
+                </div>
+                <!-- .view_box -->
+            </div>
+        </section>
+
+        <footer>
+            <p class="txt_box inner">Copyright Geunseon Lee 2022. All Rights Reserved.
+                <a href="#" class="back-top"><i class="fa-solid fa-arrow-up-long"></i></a>
+            </p>
+        </footer>
+    </div>
+    <!-- #wrap -->
+
+    <script>
+        AOS.init();
+        AOS.init({
+            offset: 200,
+            delay: 0,
+            duration: 2400,
+            easing: 'ease',
+            once: false,
+            mirror: false,
+            anchorPlacement: 'top-bottom'
+        });
+    </script>
+</body>
+
+</html>
