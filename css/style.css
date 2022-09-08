@@ -606,6 +606,20 @@ section .sec_tit {
     width: 100%;
 }
 
+.view_list.print {
+    justify-content: center;
+    gap: 3rem 0;
+}
+
+.view_list.print .img_box {
+    width: 100%;
+}
+
+.view_list.print .img_box img {
+    box-shadow: none;
+    border: none;
+}
+
 
 
 /* common */
@@ -617,7 +631,8 @@ section .sec_tit {
 .main #sec1 {
     margin-bottom: 50rem;
 }
-.main #sec1 .inner{
+
+.main #sec1 .inner {
     padding-top: 30rem;
 }
 
