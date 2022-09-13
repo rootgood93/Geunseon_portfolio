@@ -67,19 +67,6 @@
     }
 }
 
-@keyframes marquee {
-    from {
-        padding-left: 100%;
-        transform: translate(0%);
-    }
-
-    99%,
-    to {
-        transform: translate(-150%);
-    }
-}
-
-
 @keyframes twinkleAnm {
     0% {
         opacity: .2;
@@ -322,10 +309,6 @@ header .gnb>ul>li>a {
     padding: 1.2rem 0 2.4rem;
 }
 
-header .gnb .port_list a {
-    padding: 1.2rem 0;
-}
-
 header .rotate_txt {
     font-family: 'HeirofLightBold', serif;
     font-size: 1.7rem;
@@ -455,6 +438,35 @@ section .sec_tit {
 
 /* tab_box */
 
+
+
+#sec3 .tab_box h4,
+#sec3 .tab_box h5 {
+    width: 100%;
+}
+
+#sec3 .tab_box h4 {
+    font-family: 'GS_B';
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    color: #eaeaeb;
+    transition: all 0.3s;
+    margin: auto;
+}
+
+
+#sec3 .tab_box h4:hover {
+    animation-play-state: paused;
+    color: #cacad0;
+
+}
+
+#sec3 .tab_box h5 {
+    color: #303030;
+    font-family: 'GS_L';
+    margin: 1rem auto;
+    line-height: 1.5;
+}
 
 
 .tab_box .w140 {
@@ -887,6 +899,10 @@ section .sec_tit {
     margin-bottom: 3rem;
 }
 
+#sec5 h4 {
+    line-height: 1.4;
+}
+
 #sec5 h5 {
     margin-top: 0.8rem;
 }
@@ -907,6 +923,15 @@ footer .txt_box {
     opacity: 0.8;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
+}
+
+footer .back-top {
+    position: absolute;
+    font-size: 3.6rem;
+    bottom: 3rem;
+    right: 4rem;
+    opacity: 0.6;
+    color: #f6d3e6;
 }
 
 /* footer */
@@ -1240,6 +1265,10 @@ footer .txt_box {
         gap: 1rem 0;
     }
 
+    #sec3 .tab_box h4 {
+        font-size: 4rem;
+    }
+
     .tab_box .w140 li {
         width: 90%
     }
@@ -1276,6 +1305,10 @@ footer .txt_box {
 
     .main #sec1 .paper_box>div {
         font-size: 3.4rem;
+    }
+
+    #sec3 .tab_box h4 {
+        font-size: 3.6rem;
     }
 
     .tab_box .w140 li {

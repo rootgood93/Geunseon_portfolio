@@ -1,11 +1,11 @@
 $(function () {
 
 
+
     // 햄버거 버튼, gnb
     $('.ham .open').click(() => {
         $('.ham .open').removeClass('on')
         $('.ham .close').addClass('on')
-        // $('header .gnb').animate({width: '23vw'})
         $('header .gnb').animate({
             left: '0'
         })
@@ -14,7 +14,6 @@ $(function () {
     $('.ham .close').click(() => {
         $('.ham .close').removeClass('on')
         $('.ham .open').addClass('on')
-        // $('header .gnb').animate({width: '0vw'})
         $('header .gnb').animate({
             left: '-100%'
         })
@@ -40,7 +39,6 @@ $(function () {
     for (loop = 0; loop < count; loop++) {
         let star = document.createElement("div");
         $(star).addClass('dot');
-        // $('body').append(star);
         $('#wrap').append(star);
 
         if (genRanNum(1, 4) == 4) {
@@ -66,13 +64,12 @@ $(function () {
 
 
 
-
-    // tab 버튼 무력화
+    // tab a버튼 무력화
     $('.tab>li>a').click(function (e) {
         e.preventDefault()
     })
 
-    // tab 버튼 동작
+    // tab 버튼 구현
     $('.tab li').click(function () {
         console.log($(this).index())
         $('.tab li').removeClass('on')
@@ -81,32 +78,6 @@ $(function () {
         $('.tab_box').removeClass('on')
         $('.tab_box').eq(tabIndex).addClass('on')
     })
-
-
-    // .back_list
-    // $('.list1 .back_list').click(function () {
-    //     history.back()
-    //     $('.main .tab').find('li').eq(0).addClass('on').siblings().removeClass();
-    //     $('.port_list').find('#tab1').addClass('on').siblings().removeClass('on');
-
-    // })
-    // $('.list2 .back_list').click(function () {
-    //     history.back()
-    //     $('.main .tab').find('li').eq(1).addClass('on').siblings().removeClass();
-    //     $('.port_list').find('#tab2').addClass('on').siblings().removeClass('on');
-
-    // })
-
-    // $('.list2 .back_list').click(function () {
-    //     history.back(function () {
-    //         $('.tab li').removeClass('on')
-    //         $('.tab li').eq(1).addClass('on')
-    //         $('.tab_box').removeClass('on')
-    //         $('.tab_box').eq(1).addClass('on')
-    //     })
-    // })
-
-
 
 
 
