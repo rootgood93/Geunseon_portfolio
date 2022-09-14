@@ -511,6 +511,16 @@ section .sec_tit {
     display: block;
 }
 
+.tab_box .w140 li.tit_box {
+    width: 100%;
+    padding: 0;
+}
+
+.tab_box .w140 li.tit_box:hover::before {
+    display: none;
+}
+
+
 .tab_box .w140 li .img_box {
     margin-bottom: 3rem;
     width: 80%;
